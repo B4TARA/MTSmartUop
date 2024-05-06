@@ -1,0 +1,23 @@
+﻿@model MtSmart.WEB.Models.ViewModels.ListSubordinateEmployees
+
+<li><a class="link_name">Задачи работников</a></li>
+
+@foreach (var rootEmployee in Model.rootEmployees)
+{
+    <li>
+        <div class="stage_indicator_circle blue_bcolor"></div>
+
+        <a asp-controller="UserBoard" asp-action="ListEmployeeCards" asp-route-employeeId="@rootEmployee.Id">@rootEmployee.Name.Split(' ')[0] @rootEmployee.Name.Split(' ')[1]</a>
+    </li>
+
+    foreach (var nestedEmployee in rootEmployee.nestedEmployees)
+    {
+        <ul style="margin-left: 10px;">
+            <li>
+                <div class="stage_indicator_circle blue_bcolor"></div>
+
+                <a asp-controller="UserBoard" asp-action="ListEmployeeCards" asp-route-employeeId="@nestedEmployee.Id">@nestedEmployee.Name.Split(' ')[0] @nestedEmployee.Name.Split(' ')[1]</a>
+            </li>
+        </ul>      
+    }
+}

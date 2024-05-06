@@ -1,0 +1,857 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MtSmart.WEB.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MtSmart.WEB.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\css\\style_authorization.css",
+      "PackagePath": "staticwebassets\\css\\style_authorization.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\css\\style_table.css",
+      "PackagePath": "staticwebassets\\css\\style_table.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\1.txt",
+      "PackagePath": "staticwebassets\\files\\1.txt"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\2.txt",
+      "PackagePath": "staticwebassets\\files\\2.txt"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\5ar7o65lpt2b1.jpg",
+      "PackagePath": "staticwebassets\\files\\5ar7o65lpt2b1.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\EmptyState.png",
+      "PackagePath": "staticwebassets\\files\\EmptyState.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\SMART-задачи_список сотрудников.xlsx",
+      "PackagePath": "staticwebassets\\files\\SMART-задачи_список сотрудников.xlsx"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\objects-horizontal-left-solid-24.png",
+      "PackagePath": "staticwebassets\\files\\objects-horizontal-left-solid-24.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\Акт_Батурель_октябрь2023.docx",
+      "PackagePath": "staticwebassets\\files\\Акт_Батурель_октябрь2023.docx"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\Описание оценочных суждений.docx",
+      "PackagePath": "staticwebassets\\files\\Описание оценочных суждений.docx"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\СМАРТЫ Доработки.doc",
+      "PackagePath": "staticwebassets\\files\\СМАРТЫ Доработки.doc"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\Тексты уведомлений.docx",
+      "PackagePath": "staticwebassets\\files\\Тексты уведомлений.docx"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\files\\Титульный.docx",
+      "PackagePath": "staticwebassets\\files\\Титульный.docx"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\EmptyState.png",
+      "PackagePath": "staticwebassets\\image\\EmptyState.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\default_profile_icon.svg",
+      "PackagePath": "staticwebassets\\image\\default_profile_icon.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\angle-left-solid-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\angle-left-solid-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\bars-solid-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\bars-solid-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\bookmark-regular-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\bookmark-regular-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\box-archive-solid-grey.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\box-archive-solid-grey.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\calendar-regular-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\calendar-regular-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\check-to-slot-solid-primary.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\check-to-slot-solid-primary.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\chevron-down-solid-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\chevron-down-solid-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\circle-chevron-down-solid-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\circle-chevron-down-solid-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\clock-rotate-left-solid-primary.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\clock-rotate-left-solid-primary.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\collection-regular-24.png",
+      "PackagePath": "staticwebassets\\image\\icons\\collection-regular-24.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\comment-dark-grey.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\comment-dark-grey.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\credit-card-regular-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\credit-card-regular-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\file-regular-24.png",
+      "PackagePath": "staticwebassets\\image\\icons\\file-regular-24.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\folder-solid.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\folder-solid.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\grid-alt-regular-24.png",
+      "PackagePath": "staticwebassets\\image\\icons\\grid-alt-regular-24.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\house-solid-primary.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\house-solid-primary.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\log-out-regular-24.png",
+      "PackagePath": "staticwebassets\\image\\icons\\log-out-regular-24.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\paperclip-solid-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\paperclip-solid-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\paperclip-solid-dark-grey.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\paperclip-solid-dark-grey.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\plus-solid-dark-grey.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\plus-solid-dark-grey.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\square-check-regular-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\square-check-regular-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\trash-solid-dark-grey.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\trash-solid-dark-grey.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\icons\\xmark-solid-black.svg",
+      "PackagePath": "staticwebassets\\image\\icons\\xmark-solid-black.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\profile.jpg",
+      "PackagePath": "staticwebassets\\image\\profile.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\smartproj_icon.png",
+      "PackagePath": "staticwebassets\\image\\smartproj_icon.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\smartproj_icon.svg",
+      "PackagePath": "staticwebassets\\image\\smartproj_icon.svg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\АбрамовЮрийВячеславович15041974.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\АбрамовЮрийВячеславович15041974.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\БеганскаяЕкатеринаАлександровна21091973.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\БеганскаяЕкатеринаАлександровна21091973.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ВаривончикПавелЮрьевич30041979.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ВаривончикПавелЮрьевич30041979.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ВертинскаяОльгаВикторовна23061975.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ВертинскаяОльгаВикторовна23061975.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ГладковаИринаЕвгеньевна20121967.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ГладковаИринаЕвгеньевна20121967.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ГлушкоДмитрийНиколаевич30101985.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ГлушкоДмитрийНиколаевич30101985.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ГлушкоНадеждаАнатольевна24041993.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ГлушкоНадеждаАнатольевна24041993.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ГлушукИринаАнатольевна22041974.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ГлушукИринаАнатольевна22041974.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ГрицельАлександрАлександрович20021979.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ГрицельАлександрАлександрович20021979.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ДмуховскаяЮлияПавловна22021986.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ДмуховскаяЮлияПавловна22021986.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЕвтушевскийПавелАлексеевич24071985.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЕвтушевскийПавелАлексеевич24071985.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЕзерскаяВиолеттаТадеушевна29091984.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЕзерскаяВиолеттаТадеушевна29091984.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЖелнеровичГалинаПавловна28111971.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЖелнеровичГалинаПавловна28111971.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЖирнельТатьянаМечиславовна11071973.png",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЖирнельТатьянаМечиславовна11071973.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЗатковскаяМарияГеоргиевна24101981.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЗатковскаяМарияГеоргиевна24101981.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЗахватовичЯнаГеннадьевна26031992.html",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЗахватовичЯнаГеннадьевна26031992.html"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ИвлиевДенисОлегович25041987.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ИвлиевДенисОлегович25041987.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\КадушкоСергейНиколаевич27071982.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\КадушкоСергейНиколаевич27071982.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\КазаченокТатьянаВасильевна20071981.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\КазаченокТатьянаВасильевна20071981.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\КарповичАлександрМихайлович24101986.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\КарповичАлександрМихайлович24101986.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\КозляковскаяНатальяВасильевна14081985.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\КозляковскаяНатальяВасильевна14081985.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\КривоносСергейЭдуардович06031986.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\КривоносСергейЭдуардович06031986.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЛеваковаМаргаритаМихайловна10021985.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЛеваковаМаргаритаМихайловна10021985.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЛевченкоАннаПетровна09061966.png",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЛевченкоАннаПетровна09061966.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЛущиковАлексейМихайлович24041990.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЛущиковАлексейМихайлович24041990.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\МазовкаАннаВикторовна07051987.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\МазовкаАннаВикторовна07051987.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\МакароваОльгаАлександровна08101972.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\МакароваОльгаАлександровна08101972.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\МакеевИгорьСергеевич23071982.png",
+      "PackagePath": "staticwebassets\\image\\user_image\\МакеевИгорьСергеевич23071982.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\МалашёнокМаринаСергеевна20031989.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\МалашёнокМаринаСергеевна20031989.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\МиркевичСветланаИосифовна24061974.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\МиркевичСветланаИосифовна24061974.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\НосовЮрийВячеславович18081988.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\НосовЮрийВячеславович18081988.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ПоляковаИннаЮлиановна31011971.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ПоляковаИннаЮлиановна31011971.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ПриходькоАлександрВикторович26091995.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ПриходькоАлександрВикторович26091995.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\СидорикЕвгенийДмитриевич05101964.png",
+      "PackagePath": "staticwebassets\\image\\user_image\\СидорикЕвгенийДмитриевич05101964.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\СубочАлексейЛеонидович17041974.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\СубочАлексейЛеонидович17041974.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\СурдоНатальяАлександровна18031970.png",
+      "PackagePath": "staticwebassets\\image\\user_image\\СурдоНатальяАлександровна18031970.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ТомчикЯнМихайлович06072001.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ТомчикЯнМихайлович06072001.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЦедрикИринаНиколаевна25091975.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЦедрикИринаНиколаевна25091975.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЦуранОльгаНиколаевна09041986.jpeg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЦуранОльгаНиколаевна09041986.jpeg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ШаваринаИринаГригорьевна18011967.png",
+      "PackagePath": "staticwebassets\\image\\user_image\\ШаваринаИринаГригорьевна18011967.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ШидловичДмитрийПетрович11011981.png",
+      "PackagePath": "staticwebassets\\image\\user_image\\ШидловичДмитрийПетрович11011981.png"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\user_image\\ЯнутьВераИгоревна12041985.jpg",
+      "PackagePath": "staticwebassets\\image\\user_image\\ЯнутьВераИгоревна12041985.jpg"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\image\\Отчёт.xlsx",
+      "PackagePath": "staticwebassets\\image\\Отчёт.xlsx"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\js\\cardScript.js",
+      "PackagePath": "staticwebassets\\js\\cardScript.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\js\\commentScript.js",
+      "PackagePath": "staticwebassets\\js\\commentScript.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\js\\datepickerReport.js",
+      "PackagePath": "staticwebassets\\js\\datepickerReport.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\js\\fileScript.js",
+      "PackagePath": "staticwebassets\\js\\fileScript.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\js\\pagesLogicScript.js",
+      "PackagePath": "staticwebassets\\js\\pagesLogicScript.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\README.md",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\README.md"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\air-datepicker.css",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\air-datepicker.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\air-datepicker.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\air-datepicker.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\air-datepicker.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\air-datepicker.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\index.es.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\index.es.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ar.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ar.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\cs.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\cs.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\da.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\da.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\da.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\de.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\de.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\de.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\el.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\el.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\el.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\en.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\en.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\en.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\en.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\es.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\es.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\es.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\fi.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\fi.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\fr.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\fr.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\hu.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\hu.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\id.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\id.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\id.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\it.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\it.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\it.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ja.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ja.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ko.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ko.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\nl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\nl.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\pl.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\pl.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\pt-BR.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\pt-BR.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\pt-BR.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\pt.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\pt.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ro.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ro.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ru.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ru.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\si.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\si.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\si.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\si.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\sk.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\sk.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\sv.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\sv.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\th.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\th.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\th.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\tr.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\tr.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\uk.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\uk.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\zh.d.ts",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\zh.d.ts"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\locale\\zh.js",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\locale\\zh.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\air-datepicker\\package.json",
+      "PackagePath": "staticwebassets\\lib\\air-datepicker\\package.json"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\MTSmart\\MTSmart\\MtSmart.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MtSmart.WEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MtSmart.WEB.props",
+      "PackagePath": "build\\MtSmart.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MtSmart.WEB.props",
+      "PackagePath": "buildMultiTargeting\\MtSmart.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MtSmart.WEB.props",
+      "PackagePath": "buildTransitive\\MtSmart.WEB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/style_table.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="~/lib/air-datepicker/air-datepicker.js"></script>
+    <link rel="stylesheet" href="~/lib/air-datepicker/air-datepicker.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+
+
+    @if (User.Identity != null && User.Identity.IsAuthenticated)
+    {
+        <div class="sidebar">
+
+            <div class="sidebar_close_btn_wrapper">
+                <img src="~/image/icons/angle-left-solid-black.svg" class="sidebar_btn" />
+            </div>
+
+            <div class="logo-details">
+                <img src="~/image/smartproj_icon.svg" alt="logo">
+                <span class="logo_name">MTSmart</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+
+                    <a asp-controller="UserBoard" asp-action="ListEmployeeCards" asp-route-employeeId="@Convert.ToInt32(User.Claims.FirstOrDefault(c => c.Type == "Id").Value)">
+
+                        <i><img src="/image/icons/grid-alt-regular-24.png" class="icon_sidebar_layout" /> </i>
+
+                        <span class="link_name">Мои задачи</span>
+                    </a>
+
+                    <ul class="sub-menu blank">
+                        <li class=""><a class="link_name" href="#">Мои задачи</a></li>
+                    </ul>
+                </li>
+
+                @if (!User.IsInRole("Employee"))
+                {
+                    <li class="showMenu">
+
+                        <a href="#">
+
+                            <i><img src="/image/icons/collection-regular-24.png" class="icon_sidebar_layout" /> </i>
+
+                            <span class="link_name">Задачи работников</span>
+
+                            <i class="fa-solid fa-angle-up bxs-chevron-down arrow"></i>
+
+                        </a>
+
+                        <ul class="sub-menu">
+                            @await Component.InvokeAsync("ListSubordinateEmployees", new { supervisorId = Convert.ToInt32(User.FindFirst("Id").Value), supervisorName = User.FindFirst("Name").Value})
+                        </ul>
+                    </li>
+
+                    <li class="showMenu">
+
+                        <a asp-controller="Supervisor" asp-action="GetReportView">
+
+                            <i><img src="/image/icons/file-regular-24.png" class="icon_sidebar_layout" /> </i>
+
+                            <span class="link_name">Отчет</span>
+                        </a>
+
+                        <ul class="sub-menu blank">
+                            <li class=""><a class="link_name" href="#">Отчет</a></li>
+                        </ul>
+                    </li>
+                }
+
+                <li>
+                    <div class="profile-details">
+
+                        @if (User.Claims.FirstOrDefault(c => c.Type == "ImagePath") != null)
+                        {
+                            <div class="profile-content">
+                                <img src="@User.Claims.FirstOrDefault(c => c.Type == "ImagePath").Value" alt="profileImg" class="profile-content-image">
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="profile-content">
+                                <img src="/image/default_profile_icon.svg" alt="profileImg">
+                            </div>
+                        }
+
+                        <div class="name-job">
+                            <div class="profile_name">@User.Claims.FirstOrDefault(c => c.Type == "Name").Value.Split(' ')[0] @User.Claims.FirstOrDefault(c => c.Type == "Name").Value.Split(' ')[1]</div>
+                        </div>
+
+                        <a asp-area="" asp-controller="Account" asp-action="Logout">
+
+                            <i><img src="/image/icons/log-out-regular-24.png" class="logout_icon" style="width:22px; height:22px;" /></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    }
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <section class="home-section">
+            @RenderBody()
+        </section>
+    }
+    else
+    {
+        <section class="report_default_section">
+            @RenderBody()
+        </section>
+    }
+
+    <script src="~/js/cardScript.js"></script>
+    <script src="~/js/pagesLogicScript.js"></script>
+    <script src="~/js/fileScript.js"></script>
+    <script src="~/js/commentScript.js"></script>
+    <script src="~/js/datepickerReport.js"></script>
+    
+</body>
+</html>

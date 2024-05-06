@@ -1,0 +1,12 @@
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\MtSmart.EmailService.csproj.AssemblyReference.cache
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\MtSmart.EmailService.GeneratedMSBuildEditorConfig.editorconfig
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\MtSmart.EmailService.AssemblyInfoInputs.cache
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\MtSmart.EmailService.AssemblyInfo.cs
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\MtSmart.EmailService.csproj.CoreCompileInputs.cache
+D:\MTSmart\MTSmart\MtSmart.EmailService\bin\Debug\net6.0\MtSmart.EmailService.deps.json
+D:\MTSmart\MTSmart\MtSmart.EmailService\bin\Debug\net6.0\MtSmart.EmailService.dll
+D:\MTSmart\MTSmart\MtSmart.EmailService\bin\Debug\net6.0\MtSmart.EmailService.pdb
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\MtSmart.EmailService.dll
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\refint\MtSmart.EmailService.dll
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\MtSmart.EmailService.pdb
+D:\MTSmart\MTSmart\MtSmart.EmailService\obj\Debug\net6.0\ref\MtSmart.EmailService.dll

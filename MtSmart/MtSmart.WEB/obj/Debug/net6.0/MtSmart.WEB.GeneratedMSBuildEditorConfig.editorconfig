@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MtSmart.WEB
+build_property.RootNamespace = MtSmart.WEB
+build_property.ProjectDir = D:\MTSmart\MTSmart\MtSmart.WEB\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\MTSmart\MTSmart\MtSmart.WEB
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Home/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/Components/CardAssessment/CardAssessment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FyZEFzc2Vzc21lbnRcQ2FyZEFzc2Vzc21lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/Components/CardDetails/CardDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FyZERldGFpbHNcQ2FyZERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/Components/CardHistory/CardHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FyZEhpc3RvcnlcQ2FyZEhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/Components/CreateCard/CreateCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ3JlYXRlQ2FyZFxDcmVhdGVDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/Components/ListSubordinateEmployees/ListSubordinateEmployees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdFN1Ym9yZGluYXRlRW1wbG95ZWVzXExpc3RTdWJvcmRpbmF0ZUVtcGxveWVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/Components/Report/MonthReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVwb3J0XE1vbnRoUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Supervisor/GetReportView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxHZXRSZXBvcnRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/UserBoard/ListEmployeeCards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckJvYXJkXExpc3RFbXBsb3llZUNhcmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/UserBoard/ListEmployeeCardsTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckJvYXJkXExpc3RFbXBsb3llZUNhcmRzVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/UserBoard/ListUserArchivedCards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckJvYXJkXExpc3RVc2VyQXJjaGl2ZWRDYXJkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MTSmart/MTSmart/MtSmart.WEB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ptmpy1yh1v

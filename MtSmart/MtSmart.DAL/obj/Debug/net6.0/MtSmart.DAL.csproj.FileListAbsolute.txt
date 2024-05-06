@@ -1,0 +1,12 @@
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\MtSmart.DAL.csproj.AssemblyReference.cache
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\MtSmart.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\MtSmart.DAL.AssemblyInfoInputs.cache
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\MtSmart.DAL.AssemblyInfo.cs
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\MtSmart.DAL.csproj.CoreCompileInputs.cache
+D:\MTSmart\MtSmart\MtSmart.DAL\bin\Debug\net6.0\MtSmart.DAL.deps.json
+D:\MTSmart\MtSmart\MtSmart.DAL\bin\Debug\net6.0\MtSmart.DAL.dll
+D:\MTSmart\MtSmart\MtSmart.DAL\bin\Debug\net6.0\MtSmart.DAL.pdb
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\MtSmart.DAL.dll
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\refint\MtSmart.DAL.dll
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\MtSmart.DAL.pdb
+D:\MTSmart\MtSmart\MtSmart.DAL\obj\Debug\net6.0\ref\MtSmart.DAL.dll

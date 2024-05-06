@@ -1,0 +1,103 @@
+﻿@model MtSmart.WEB.Models.ViewModels.AddCard
+
+<div class="popup__bg">
+    <div class="popup add_card">
+
+        <div class="close-popup" onclick="closeCard(this)">
+            <img src="~/image/icons/xmark-solid-black.svg" />
+        </div>
+
+        <div class="info_popup_card_wrapper">
+
+            <form id="createCardFormPost">
+
+                <input type="hidden" asp-for="UserId"/>
+
+                <div class="title_popup_wrapper grid_description_2fr" id="title_popup_wrapper">
+                    <div class="container_description first_row_grid_description">
+
+                        <div class="icon_description">
+                            <img src="~/image/icons/credit-card-regular-black.svg" />
+                        </div>
+
+                        <div class="card_name_input_wrapper add_card">
+                            <input type="text" asp-for="CardName" placeholder="Введите наименование SMART-задачи" required />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="description_popup_card_wrapper grid_description_2fr margin_container_bottom">
+
+                    <div class="container_description first_row_grid_description">
+
+                        <div class="icon_description">
+                            <img src="~/image/icons/bars-solid-black.svg" />
+                        </div>
+
+                        <div class="mid_title">
+                            Требование к SMART-задаче
+                        </div>
+
+                    </div>
+
+                    <div class="second_row_grid_description" id="description">
+                        <div></div>
+
+                        <textarea class="mid_description" id="description_editor" asp-for="CardRequirement" required></textarea>
+
+                    </div>
+                </div>
+
+                <div class="choose_date_popup_wrapper grid_description_2fr" id="choose_date_popup_wrapper">
+
+                    <div class="container_description first_row_grid_description">
+                        <div class="icon_description">
+                            <img src="~/image/icons/calendar-regular-black.svg" />
+                        </div>
+                        <div class="mid_title">
+                            Плановый срок реализации
+                        </div>
+                    </div>
+
+                    <div class="choose_date_popup_wrapper second_row_grid_description margin_container_bottom_middle">
+                        <div></div>
+
+                        <div class="choose_date_wrapper">
+                            <input type="date" asp-for="CardTerm" id="choose_date_add_card" placeholder="Выберите период" value="" min="@Model.Min.ToString("yyyy-MM-dd")" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button type="submit" class="action_btn primary_btn">
+                    <div class="description">Сохранить</div>
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#createCardFormPost').submit(function (event) {
+            event.preventDefault(); // Предотвращаем отправку формы по умолчанию
+
+            var formData = $(this).serialize(); // Получаем данные формы
+
+            $.post({
+                url: '@Url.Action("CreateCard", "Card")',
+                data: formData,
+                success: function (response) {
+                    window.location.reload();
+                },
+                error: function (xhr, status, error) {
+                    // Обработка ошибки, если необходимо
+                    console.error(xhr.responseText);
+                }
+            });
+        });
+    });
+</script>
+

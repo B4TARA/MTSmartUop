@@ -1,0 +1,59 @@
+﻿@model List<MtSmart.WEB.Models.ViewModels.GetReportViewModel>
+
+<table class="table" id="tableReport">
+
+    <thead>
+        <tr>
+            <th>Наименование ССП</th>
+            <th>ФИО работника</th>
+            <th>Должность</th>
+            <th>Непосредственный руководитель</th>
+
+            <th>Наименование SMART-задачи</th>
+            <th>Требование к задаче (что считается исполнением задачи)</th>
+            <th>Плановый срок реализации задачи</th>
+            <th>Фактический срок реализации задачи</th>
+
+            <th>Самооценка качества выполнения задачи работником</th>
+            <th>Самооценка срока выполнения задачи работником</th>
+            <th>Затраченное время на выполнение задачи</th>
+            <th>Комментарий работника</th>
+
+            <th>Оценка качества выполнения задачи руководителем</th>
+            <th>Оценка срока выполнения задачи руководителем</th>
+            <th>Комментарий руководителя</th>
+
+            <th>% выполнения качества задачи в зависимости от присвоенного оценочного суждения руководителя</th>
+            <th>% выполнения срока задачи в зависимости от присвоенного оценочного суждения руководителя</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var card in Model)
+        {
+            <tr>
+                <td>@card.EmployeeSspName</td>
+                <td>@card.EmployeeName</td>
+                <td>@card.EmployeePosition</td>
+                <td>@card.SupervisorName</td>
+
+                <td>@card.CardName</td>
+                <td>@card.CardRequirement</td>
+                <td>@card.CardStartTerm</td>
+                <td>@card.CardFactTerm</td>
+
+                <td>@card.EmployeeQualityAssessmentText</td>
+                <td>@card.EmployeeTermAssessmentText</td>
+                <td>@card.HoursOfWork</td>
+                <td>@card.EmployeeComment</td>
+
+                <td>@card.SupervisorQualityAssessmentText</td>
+                <td>@card.SupervisorTermAssessmentText</td>
+                <td>@card.SupervisorComment</td>
+
+                <td>@card.SupervisorQualityAssessmentValue</td>
+                <td>@card.SupervisorTermAssessmentValue</td>
+            </tr>
+        }
+    </tbody>
+</table>

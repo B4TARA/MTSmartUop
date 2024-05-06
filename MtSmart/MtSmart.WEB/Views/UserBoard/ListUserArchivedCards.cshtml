@@ -1,0 +1,225 @@
+﻿@model MtSmart.WEB.Models.ViewModels.ListUserArchivedCardsViewModel
+
+<div class="home-content">
+    <div class="home_content_info">
+
+        <div class="home_content_info_icon">
+            <img src="~/image/icons/folder-solid.svg" />
+        </div>
+
+        <div class="mid_title">
+            @Model.UserName
+        </div>
+
+        <div class="mid_title">
+            (@Model.SspName)
+        </div>
+
+    </div>
+</div>
+
+<div class="header_btns_wrapper">
+
+    <a class="action_btn header_btn" asp-controller="UserBoard" asp-action="ListEmployeeCards" asp-route-employeeId="@Model.UserId">
+
+
+        <div class="action_btn_icon ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M2 2h20v2H2z"></path>
+                <rect x="5" y="6" width="6" height="16" rx="1"></rect>
+                <rect x="13" y="6" width="6" height="12" rx="1"></rect>
+            </svg>
+        </div>
+
+
+        <div class="description">Доска</div>
+    </a>
+
+    <a class="action_btn header_btn" asp-controller="UserBoard" asp-action="ListEmployeeCardsTable" asp-route-employeeId="@Model.UserId">
+
+
+        <div class="action_btn_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M2 2h2v20H2z"></path>
+                <rect x="6" y="13" width="16" height="6" rx="1"></rect>
+                <rect x="6" y="5" width="12" height="6" rx="1"></rect>
+            </svg>
+        </div>
+
+
+        <div class="description">Список</div>
+    </a>
+
+    <a class="action_btn header_btn active" asp-controller="UserBoard" asp-action="ListUserArchivedCards" asp-route-employeeId="@Model.UserId">
+
+        <div class="action_btn_icon ">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M32 32H480c17.7 0 32 14.3 32 32V96c0 17.7-14.3 32-32 32H32C14.3 128 0 113.7 0 96V64C0 46.3 14.3 32 32 32zm0 128H480V416c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V160zm128 80c0 8.8 7.2 16 16 16H336c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z" /></svg>
+        </div>
+
+        <div class="description">Архив</div>
+
+    </a>
+
+</div>
+
+<section class="main_container_content" id="main_container_content">
+    <div class="list_view_container">
+
+        <div class="list_view_main_wrapper">
+            <table class="table_list_view margin_container_bottom_middle">
+
+                <thead>
+                    <tr>
+                        <th class="blue_bcolor_highcontrast">Архив</th>
+                        <th class="extra_info"></th>
+                        <th>Создал</th>
+                        <th>Плановая дата</th>
+                        <th>Фактическая дата</th>
+                        <th>Человеко-часы</th>
+                        <th>Оценка качества сотрудника</th>
+                        <th>Оценка срока сотрудника</th>
+                        <th>Оценка качества руководителя</th>
+                        <th>Оценка срока руководителя</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @if (Model.ArchivedCards.Count() != 0)
+                    {
+                        @foreach (var card in Model.ArchivedCards)
+                        {
+                            <tr class="open-popup" onclick="getCardDetailsHandle(@card.CardId, @Model.UserId, 5)">
+
+                                <td class="table_title_wrapper">
+                                    <div class="stage_indicator_circle blue_bcolor"></div>
+                                    <div class="info_table_title_wrapper">
+                                        <div class="description">
+                                            @card.CardName
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="card_details_info_wrapper">
+
+
+                                        <div class="card_detail_item">
+                                            <div class="item_icon">
+                                                <img src="~/image/icons/comment-dark-grey.svg" />
+                                            </div>
+                                            <div class="item_count">
+                                                <div class="mid_description">
+                                                    @card.CountOfComments
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="card_detail_item">
+                                            <div class="item_icon">
+                                                <img src="~/image/icons/paperclip-solid-dark-grey.svg" />
+                                            </div>
+                                            <div class="item_count">
+                                                <div class="mid_description">
+                                                    @card.CountOfFiles
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+
+
+                                <td>
+                                    @if (Model.UserImagePath != null)
+                                    {
+                                        <div class="card_holders_wrapper">
+                                            <div class="holder_image_wrapper" style="background-image:url('@Model.UserImagePath');"></div>
+                                        </div>
+                                    }
+
+
+                                    else
+                                    {
+                                        <div class="card_holders_wrapper">
+                                            <div class="holder_image_wrapper" style="background-image:url('/image/default_profile_icon.svg');"></div>
+                                        </div>
+                                    }
+                                </td>
+
+
+                                <td>
+                                    <div class="card_name_wrapper">
+                                        <div class="mid_description">
+                                            @card.CardTerm.ToString("MMMM yyyy")
+                                        </div>
+                                    </div>
+                                </td>
+
+
+                                <td>
+                                    <div class="card_name_wrapper">
+                                        <div class="mid_description">
+                                            @card.FactTerm.ToString("MMMM yyyy")
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    @card.HoursOfWork
+                                </td>
+
+                                <td>
+                                    @card.EmployeeQualityAssessment
+                                </td>
+
+
+                                <td>
+                                    @card.EmployeeTermAssessment
+                                </td>
+
+                                <td>
+                                    @card.SupervisorQualityAssessment
+                                </td>
+
+
+                                <td>
+                                    @card.SupervisorTermAssessment
+                                </td>
+
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td class="table_title_wrapper">
+                            </td>
+
+                            <td>
+                            </td>
+
+                            <td>
+                            </td>
+
+                            <td>
+                            </td>
+
+                            <td>
+                            </td>
+
+                            <td>
+                            </td>
+
+                            <td>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<div class="modal-body">
+    <!-- Здесь будет отображаться ViewComponent -->
+</div>

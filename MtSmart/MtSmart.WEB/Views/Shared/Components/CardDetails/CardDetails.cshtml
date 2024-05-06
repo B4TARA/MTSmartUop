@@ -1,0 +1,286 @@
+﻿@model MtSmart.WEB.Models.ViewModels.CardDetails
+
+
+<div class="popup__bg">
+
+    <div class="popup_wrapper">
+        <div class="leftside_popup_buttons_wrapper">
+
+            <div class="leftside_button_wrapper active" onclick="getCardDetails(@Model.CardId, @Model.UserId)">
+                <div class="leftside_button_icon">
+                    <img src="~/image/icons/house-solid-primary.svg" />
+                </div>
+            </div>
+
+            @if (Model.Column > 3)
+            {
+                <div class="leftside_button_wrapper" onclick="getCardAssessment(@Model.CardId, @Model.UserId)">
+
+                    <div class="leftside_button_icon">
+                        <img src="~/image/icons/check-to-slot-solid-primary.svg" />
+                    </div>
+
+                    @if (Model.IsNeedEmployeeAssessment|| Model.IsNeedSupervisorAssessment)
+                    {
+                        <div class="stage_indicator_circle red_bcolor"></div>
+                    }
+
+                </div>
+            }
+
+            <div class="leftside_button_wrapper" onclick="getCardHistory(@Model.CardId, @Model.UserId)">
+                <div class="leftside_button_icon">
+                    <img src="~/image/icons/clock-rotate-left-solid-primary.svg" />
+                </div>
+            </div>
+
+        </div>
+        <div class="popup">
+
+            <div class="close-popup" onclick="closeCard(this)">
+                <img src="~/image/icons/xmark-solid-black.svg" />
+            </div>
+
+            <div class="info_popup_card_wrapper">
+                <div class="title margin_container_bottom_middle">Информация</div>
+
+                <form>
+
+                    <input type="hidden" asp-for="UserId" value="@Model.UserId" name="UserId" />
+
+                    <input type="hidden" asp-for="CardId" value="@Model.CardId" name="CardId" />
+
+                    <input type="hidden" asp-for="Column" value="@Model.Column" />
+
+                    <div class="title_popup_wrapper grid_description_2fr" id="title_popup_wrapper">
+                        <div class="container_description first_row_grid_description">
+
+                            <div class="icon_description">
+                                <img src="~/image/icons/credit-card-regular-black.svg" />
+                            </div>
+
+                            <div class="card_name_input_wrapper card_detail_active">
+                                <input type="text" asp-for="CardName" placeholder="Введите название" id="nameCardItem" required />
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="description_popup_card_wrapper grid_description_2fr margin_container_bottom">
+
+                        <div class="container_description first_row_grid_description">
+
+                            <div class="icon_description">
+                                <img src="~/image/icons/bars-solid-black.svg" />
+                            </div>
+
+                            <div class="mid_title">
+                                Требование к SMART-задаче
+                            </div>
+
+                        </div>
+
+                        <div class="second_row_grid_description" id="description">
+                            <div></div>
+
+                            <textarea class="mid_description" asp-for="CardRequirement" placeholder="Введите описание" id="requirementCardItem" required></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="choose_date_popup_wrapper grid_description_2fr" id="choose_date_popup_wrapper">
+
+                        <div class="container_description first_row_grid_description">
+
+                            <div class="icon_description">
+                                <img src="~/image/icons/calendar-regular-black.svg" />
+                            </div>
+
+                            <div class="mid_title">
+                                Плановый срок реализации
+                            </div>
+
+                        </div>
+
+                        <div class="choose_date_popup_wrapper second_row_grid_description margin_container_bottom_middle">
+                            <div></div>
+
+                            <div class="choose_date_wrapper" id="choose_date">
+                                <input type="date" asp-for="CardTerm" value="@Model.CardTerm.ToString("yyyy-MM-dd")" placeholder="Выберите период" id="termCardItem" required>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="upload_files_main_wrapper grid_description_2fr margin_container_bottom">
+
+                        <div class="container_description first_row_grid_description">
+
+                            <div class="icon_description">
+                                <img src="~/image/icons/paperclip-solid-black.svg" />
+                            </div>
+
+                            <div class="mid_title_wrapper">
+
+                                <div class="mid_title">
+                                    Вложения
+                                </div>
+
+                                <div class="upload_file_btn_wrapper">
+                                    <div class="input__wrapper">
+
+                                        <input type="file" id="input__file" class="input input__file" multiple onchange="uploadFile(this, @Model.CardId, @Model.UserId)">
+
+                                        <label for="input__file" class="input__file-button">
+
+                                            <span class="input__file-icon-wrapper">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="15" width="13" viewBox="0 0 448 512">
+                                                    <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                                                </svg>
+                                            </span>
+
+                                            <span class="input__file-button-text">Добавить</span>
+
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="upload_files_wrapper second_row_grid_description">
+
+                            <div></div>
+
+                            <div class="upload_files_list_wrapper" id="upload_files_list_wrapper">
+
+                                <section class="progress-area"></section>
+
+                                <section class="uploaded-area">
+
+                                    @foreach (var file in Model.Files)
+                                    {
+                                        <li class="row">
+
+                                            <div class="content upload">
+
+                                                <div class="content_upload_type_icon">
+                                                    <i class="fa-solid fa-file-lines"></i>
+                                                </div>
+
+                                                <div class="details">
+                                                    <span class="name">@file.Name • Добавлено</span>
+                                                    <a href="@file.Path"><span class="description download">Скачать</span></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="content_upload_delete_icon" onclick="deleteFile(@Model.CardId, @file.Id, @Model.UserId)">
+                                                <i class="fa-solid fa-xmark delete_upload_file"></i>
+                                            </div>
+                                        </li>
+                                    }
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="action_buttons_wrapper">
+                        <!-- Если создатель карточки или руководитель полного доступа и 1 колонка -->
+                        @if ((Model.CurrentUserId == Model.UserId || Model.IsFullAccessSupervisor) && Model.Column == 1)
+                        {
+                            <button onclick="moveCard(event)" class="action_btn green_btn">
+                                <div class="description">На согласование</div>
+                            </button>
+                        }
+                        else if ((Model.CurrentUserId != Model.UserId || Model.IsFullAccessSupervisor) && Model.Column == 2 )
+                        {
+                            <button onclick="moveCard(event)" class="action_btn green_btn">
+                                <div class="description">Согласовано</div>
+                            </button>
+
+                            <button onclick="rejectCard(event)" class="action_btn orange_btn">
+                                <div class="description">На доработку</div>
+                            </button>
+                        }
+                        //Если руководитель создателя карточки или руководитель полного доступа и 3 колонка и актуальный квартал
+                        else if (Model.Column == 3)
+                        {
+                            <button onclick="moveCard(event)" class="action_btn green_btn">
+                                <div class="description">Выполнено</div>
+                            </button>
+                        }
+
+                        <!-- Если руководитель создателя или руководитель полного доступа и колонка < 6 -->
+                        @if ((Model.CurrentUserId != Model.UserId || Model.IsFullAccessSupervisor) && Model.Column != 6 && Model.IsRelevant)
+                        {
+                            <button type="submit" class="action_btn primary_btn" onclick="updateCard(event)">
+                                <div class="description">Сохранить изменения</div>
+                            </button>
+                        }
+                        //Если создатель карточки или руководитель полного доступа и колонка < 3
+                        else if ((Model.CurrentUserId == Model.UserId || Model.IsFullAccessSupervisor) && Model.Column < 3)
+                        {
+                            <button type="submit" class="action_btn primary_btn" onclick="updateCard(event)">
+                                <div class="description">Сохранить изменения</div>
+                            </button>
+                        }
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="comment_area_sidebar_wrapper">
+
+            <div class="title margin_container_bottom_middle">Комментарии</div>
+
+            <textarea class="mid_description" id="commentAreaElem" placeholder="Введите комментарий" onclick="addCommentArea(this)"></textarea>
+
+            <div class="add_texteditor_buttons_wrapper add_comment_btns margin_container_top_small" id="addCommentBtns">
+                <div class="action_buttons_wrapper ">
+
+                    <div class="action_btn primary_btn" id="saveTextArea" onclick="saveComment(this, @Model.CardId, @Model.UserId)">
+                        <div class="description">Добавить</div>
+                    </div>
+
+                    <div class="action_btn close_action_btn white_btn" id="saveTextArea" onclick="closeTextEditor(this)">
+                        <div>
+                            <img src="~/image/icons/xmark-solid-black.svg" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="comment_popup_card_wrapper grid_description_2fr margin_container_bottom" id="comment_popup_card_wrapper">
+
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="comment_user_wrapper">
+                        <div class="first_row_grid_description margin_container_top_middle">
+
+                            <div class="card_holders_wrapper">
+                                <div class="holder_image_wrapper" style="background-image:url('@comment.CommenterImagePath');">
+                                </div>
+                            </div>
+
+                            <div class="mid_title">
+                                @comment.CommenterName
+                            </div>
+                        </div>
+
+                        <div class="second_row_grid_description" id="description">
+                            <div></div>
+
+                            <div class="commentarea_wrapper" id="commentarea_wrapper">
+                                <div class="comment_area">
+
+                                    <div class="mid_description">@comment.Content</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
